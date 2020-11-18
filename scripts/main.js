@@ -40,29 +40,3 @@ $(document).ready(() => {
         xhr.send(jss);
       }
   }
-// var url = "http://localhost:3000/posts";
-// let xhr = new XMLHttpRequest();
-
-// btnLogin.addEventListener("click", () => {
-//   const emailInput = document.getElementById("exampleDropdownFormEmail1").value;
-//   const passwordInput = document.getElementById("exampleDropdownFormPassword1").value;
-
-//   alert("loginButton")
-//   //  if (emailInput.length == 0 || passwordInput.length == 0){
-//   //       alert("Заполнены не все поля");
-//   //       return;
-//   //     } else {
-//   //       xhr.open("POST", url, true);
-//   //       xhr.setRequestHeader("Content-Type", "application/json");
-
-//   //       let j = {
-//   //         email: emailInput,
-//   //         password: passwordInput
-//   //       }
-
-//   //       let jss = JSON.stringify(j);
-
-//   //       xhr.send(jss);
-//   //     }
-
-// })
